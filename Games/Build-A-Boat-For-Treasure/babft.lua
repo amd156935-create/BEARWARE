@@ -18,7 +18,7 @@ Script.AutoFarmPart.CanCollide = false
 Script.AutoFarmPart.Anchored = true
 Script.AutoFarmPart.Transparency = 1
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({
     Name = "Bear Hub | " .. identifyexecutor(),
